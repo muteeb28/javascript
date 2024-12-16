@@ -23,3 +23,23 @@ Examples in JavaScript:
 **In Simple Terms**:
 
 > A variable is like a bucket with a label (its name) that holds something inside (its value).
+
+
+### **Naming Rules for Variables**
+
+1. Can include **small letters, capital letters, digits, underscores (_), and dollar signs ($)**.  
+    Example: `score1`, `_user`, `$value`.
+    
+2. **Cannot start with a digit** but can include digits elsewhere.  
+    Example: `let 1score = 50;` ❌  
+    `let score1 = 50;` ✅
+    
+3. No **spaces** or special characters allowed in names.  
+    Example: `let user-name = "John";` ❌  
+    `let userName = "John";` ✅
+    
+4. Variable names must be **meaningful**.  
+    Example: Use `let userAge = 25;` instead of `let x = 25;`.
+    
+5. Cannot use **reserved keywords** as variable names.  
+    Example: `let const = 10;` ❌
