@@ -87,4 +87,4 @@ For detailed specifications, visit:
 
     > Undefined indicates something that has not yet been defined but could be defined later.  
     > Example:
-    `var x = 1, name = "Vishal", condition = true, status = undefined;`
+    `var x = 1, name = "Vishal", condition = true, status = undefined;`  
