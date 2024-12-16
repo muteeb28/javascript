@@ -43,3 +43,12 @@ Examples in JavaScript:
     
 5. Cannot use **reserved keywords** as variable names.  
     Example: `let const = 10;` ❌
+
+### **What is `console.log`?**
+
+The `console.log` function is an **in-built JavaScript function** that takes input and displays it in the console. It acts like a black box—takes input and gives output.
+
+#### Example:
+`console.log(10, "hello");  // Output: 10 hello`
+
+> **Pro Tip**: Open your browser's Developer Tools (usually F12), navigate to the Console tab, and type the above example.
