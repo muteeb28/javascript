@@ -1,4 +1,4 @@
-### **10 Pillars of JavaScript**
+### **10 Pillars of JavaScript javaScript ❤️**
 
 **1. Introduction to JS**  
 **2. Coercion**  
