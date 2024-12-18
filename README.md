@@ -1,11 +1,12 @@
-### ** 6 pillars of javaScript**
-**1. Introduction to js**
-**2. Coercion**
-**3. Scopes**
-**4. Functional Programming**
-**5. Callbacks**
-**6. Async nature of js**
-**7. Advance Promises**
-**8. Converting callback to Promises**
-**9. Closures | generators |iterators**
-**10. OOPS and prototypes**
+### **10 Pillars of JavaScript❤️**
+
+**1. Introduction to JS**  
+**2. Coercion**  
+**3. Scopes**  
+**4. Functional Programming**  
+**5. Callbacks**  
+**6. Async Nature of JS**  
+**7. Advanced Promises**  
+**8. Converting Callbacks to Promises**  
+**9. Closures | Generators | Iterators**  
+**10. OOPS and Prototypes**
