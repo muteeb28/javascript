@@ -193,3 +193,36 @@ Bitwise operators are used for low-level programming tasks such as:
 - Optimizing performance.
 - Manipulating binary data directly.
 - Applications in fields like cryptography, graphics, and hardware control
+
+Types of  operator - type of null special case
+### **`typeof` Operator**
+
+The `typeof` operator returns the type of its operand as a string. It helps in identifying the data type of a variable or value.
+
+
+### **Special Case: `typeof null`**
+
+- **Result:** `typeof null` returns `"object"`.
+- **Why?**
+    - This is a **legacy bug** in JavaScript due to how data was stored during the language's early design.
+    - Internally, `null` was represented as a reference to an empty object, which led to this behavior.
+    - Despite being a known issue, it was never corrected to maintain backward compatibility.
+    - **`null` is not an object.** It is a **primitive value** representing the intentional absence of any object value.
+
+    ### **Comparison**
+
+|Feature|`typeof`|`instanceof`|
+|---|---|---|
+|**Use Case**|Check the type of a value|Check if an object is an instance of a class or constructor|
+|**Works On**|Primitives and objects|Objects only|
+|**Output**|String indicating type|Boolean (`true`/`false`)|
+|**Example**|`typeof 42 // "number"`|`myDog instanceof Dog // true`|
+|**Limitations**|Cannot distinguish objects like arrays|Cannot check primitive types|
+
+#### **Equality Operators Overview**
+
+|**Operator**|**Name**|**Description**|
+|---|---|---|
+|`==`|Abstract Equality|Checks if the values are equal **after type conversion (coercion)**.|
+|`===`|Strict Equality|Checks if the values are equal **without type conversion**; also compares types directly.|
+ 

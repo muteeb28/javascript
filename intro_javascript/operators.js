@@ -100,3 +100,28 @@ console.log(10 < Infinity);  // true
 console.log(-Infinity < 10); // true
 console.log(Infinity / 2);   // Infinity
 console.log(-Infinity + 1);  // -Infinity
+
+//typeOf
+console.log(typeof "1");
+console.log(typeof 1);
+console.log(typeof false);
+console.log(typeof undefined);
+console.log(typeof null);
+
+/*typeof null return object . why? javascript legacy bug 
+ null is not a object, it is a primitve value, which represent
+intentional absence of object value*/
+//Checks if an object is an instance of a specific class or constructor function.
+// example
+console.log(null instanceof Object);
+//it will result false
+
+/**  In short:
+- `==` → _Type conversion happens, then comparison._
+- `===` → _No type conversion; directly compares type and value._
+**Best Practice:** Always prefer `===` unless you explicitly need type coercion. */
+console.log(5 == "5"); // true (string "5" is converted to number 5)
+console.log(null == undefined); // true (special coercion rule in JS)
+console.log(5 === "5"); // false (number vs string)
+console.log(null === undefined); // false (different types)
+console.log(1== "sujit"); //false (1==NaN)
