@@ -1,6 +1,6 @@
 # JavaScript Concepts README
 
-This README covers two fundamental concepts in JavaScript.
+This README covers several fundamental concepts in JavaScript.
 
 ## 1. Check if a Number is Even or Odd
 
@@ -32,4 +32,23 @@ Given three integers, determine the smallest value without using any internal fu
 
 ---
 
-These concepts illustrate the fundamental usage of conditional statements and logical operators to solve real-world problems in JavaScript.
+## 3. Classify a Triangle Based on Side Lengths
+
+### Problem
+Given the side lengths of a triangle as three integers, classify the triangle as:
+- **Equilateral**: All sides are equal.
+- **Isosceles**: Any two sides are equal, and the third is different.
+- **Scalene**: All three sides are different.
+
+### Logical Approach
+1. **Equilateral Triangle**:
+   - Check if all three sides are equal: `a == b && b == c`.
+
+2. **Isosceles Triangle**:
+   - Check if any two sides are equal: `a == b || b == c || a == c`.
+
+3. **Scalene Triangle**:
+   - Check if all three sides are different: `a != b && b != c && a != c`.
+
+4. **Alternate Logic for Scalene**:
+   - If a triangle is not equilateral or isosceles, it must be scalene. This can be handled using an `else` block.

@@ -18,7 +18,7 @@ if (a+b>c && a+c> b && b+c > a){
 }else{
     console.log("no")
 }
-
+// this example is for invalid traingle
 let x = 1 , y = 10 , z =12;
 if (x+y > z && x+z> y && y+z>x){
     console.log("yes")
