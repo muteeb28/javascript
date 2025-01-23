@@ -42,7 +42,7 @@ Given the side lengths of a triangle as three integers, classify the triangle as
 
 ### Logical Approach
 1. **Equilateral Triangle**:
-   - Check if all three sides are equal: `a == b && b == c`.
+   - Check if all three sides are equal: `a == b && a == c && b == c`.
 
 2. **Isosceles Triangle**:
    - Check if any two sides are equal: `a == b || b == c || a == c`.
@@ -52,3 +52,21 @@ Given the side lengths of a triangle as three integers, classify the triangle as
 
 4. **Alternate Logic for Scalene**:
    - If a triangle is not equilateral or isosceles, it must be scalene. This can be handled using an `else` block.
+
+---
+
+## 4. Check if Three Integers Can Form a Triangle
+
+### Problem
+Given three integers `a`, `b`, and `c`, determine if they can form a triangle.
+
+### Logical Approach
+1. To form a triangle, the sum of the lengths of any two sides must be greater than the length of the third side.
+
+2. Conditions to check:
+   - `a + b > c`
+   - `a + c > b`
+   - `b + c > a`
+
+3. If all three conditions are true, the integers can form a triangle. Otherwise, they cannot.
+
