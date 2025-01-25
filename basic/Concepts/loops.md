@@ -6,31 +6,35 @@ Loops allow us to repeat tasks efficiently, avoiding the need to manually write 
 
 ## Introduction to Loops
 
-### Example Problem:
-Write a program to print the numbers from 1 to 10.  
+## Using a `while` Loop
 
-### Observations:
-- There is a repetitive task: printing a number and then moving to the next number.  
-- Steps involved:
-  1. **Initialize a variable**: Start with `i = 1`.
-  2. **Print the current number**: Use a method like `console.log(i)`.
-  3. **Move to the next number**: Increment the variable, e.g., `i += 1`.
-  4. **Repeat**: Use a loop construct to return to the start of the block and repeat until the desired range is covered.
+- A `while` loop executes a block of code as long as its condition is true.
+
+### Logic:
+1. **Initialization**: Start with a variable, `i = 1`.
+2. **Condition Check**: Ensure `i <= 10`.
+3. **Execution**: Print the current number.
+4. **Update**: Increment `i` by 1 after each iteration.
+
+---
+
+## Difference Between `while` and `if`
+
+- **`if` Statement**:  
+  - Checks the condition **once**, regardless of whether it's true or false.
+  - Used for single-time decisions or actions.
+
+- **`while` Loop**:  
+  - Continuously checks the condition **until it becomes false**.
+  - Used for repetitive tasks where the condition determines the repetition.
 
 ---
 
-## How Loops Work
+## Summary
 
-1. **Initialization**:
-   - A variable is initialized to start the process.
-   
-2. **Condition Check**:
-   - A condition determines whether the loop should continue or stop.
+- Loops, such as the `while` loop, help automate repetitive tasks.  
+- The difference between `while` and `if` lies in repetition:  
+  - `if` is a one-time conditional check.  
+  - `while` is a repeated check until the condition turns false.  
 
-3. **Execution**:
-   - The code inside the loop is executed if the condition is true.
-
-4. **Update**:
-   - The loop variable is updated to eventually meet the stopping condition.
-
----
+By understanding and utilizing loops, you can handle tasks requiring repetition more efficiently.
