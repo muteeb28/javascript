@@ -35,3 +35,10 @@ Functions can be:
 - This ensures that any updates or corrections are made only once, keeping the code clean and error-free.  
 
 By understanding and using functions effectively, we can write more efficient, organized, and maintainable JavaScript code.  
+### **Basic Function Structure:**  
+
+```javascript
+function functionName(parameter1, parameter2, parameter3) {
+    // Logic inside the function
+    return "Value you want to return";
+}
