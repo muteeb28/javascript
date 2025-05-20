@@ -31,3 +31,6 @@ function isEvenOrOdd(num){
 for(let j =1; j<=20;j+=1){
     console.log(j, "is",isEvenOrOdd(j))
 }
+
+
+//question check odd even for three numbers
