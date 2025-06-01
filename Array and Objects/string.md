@@ -1,7 +1,3 @@
-Got it! Let's create a **separate Josh Comeau–inspired section** just for **string interpolation** in JavaScript. Here's the standalone version:
-
----
-
 # 🎙️ JavaScript String Interpolation – The Friendly Way to Build Strings
 
 We’ve all had moments where we need to stitch together some values and form a sentence. Maybe something like:
