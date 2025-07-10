@@ -11,5 +11,10 @@
 **9. Closures | Generators | Iterators**  
 **10. OOPS and Prototypes**
 ## 📄 My PDF Notes
-👉 [Click here to read the notes]
- [1.Operators](./dist/1.%20Operators.pdf)
+
+Here are my JavaScript notes in PDF format:
+
+- 👉 [1. Operators](./dist/1.Operators.pdf)
+- 👉 [2. Short Circuiting](./dist/2.Short_circuiting.pdf)
+- 👉 [3. Functions](./dist/3.%20Functions.pdf)
+
