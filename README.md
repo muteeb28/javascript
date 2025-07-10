@@ -10,3 +10,6 @@
 **8. Converting Callbacks to Promises**  
 **9. Closures | Generators | Iterators**  
 **10. OOPS and Prototypes**
+## 📄 My PDF Notes
+👉 [Click here to read the notes]
+ [1.Operators](./dist/1.%20Operators.pdf)
