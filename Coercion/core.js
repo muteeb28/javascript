@@ -44,3 +44,57 @@
 // }
 
 // console.log(obj2.valueOf())
+
+// let obj ={}
+// let a = 10
+
+// console.log(a - obj)
+// let a = 10
+
+// let obj2 = {
+//     x:9,
+//     x:10  ///why it consider this key value pair
+// }
+
+// console.log(a - obj2)
+//  console.log(obj2.toString())
+//   console.log(obj2.valueOf())
+// let a = 10
+// let obj2 = {
+//  x: 7,
+//  valueOf() {
+//  return 99;
+//  }
+// }
+// //  console.log(obj2.toString())
+// //   console.log(obj2.valueOf())
+// console.log(a - obj2)
+
+// let obj3 = {
+//  x: 8,
+//  toString() {
+//  return "88";
+//  }
+// };
+
+// let result = 90 - obj3
+// console.log(result)
+
+// let obj4 = {
+//  x: 8,
+//  toString() {
+//  return {};
+//  }
+// }
+// console.log(90 - obj4);
+
+
+// let obj = {
+// };
+// console.log(10 + obj); 
+
+// let a = null
+// let b = undefined
+
+// console.log(!a)
+// console.log(!b)
